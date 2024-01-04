@@ -3,7 +3,6 @@ n = int(input("Enter the number of iterations: "))
 for i in range(n):
     t, h, w = map(int, input(f"Enter values for iteration {i+1} (space-separated): ").split())
     inputs.append([t, h, w])
-
 result = []
 for each in inputs:
     T, H, w = each
@@ -17,5 +16,4 @@ for each in inputs:
     else:
         ans = "Stormy"
     result.append(ans)
-
 print(result)

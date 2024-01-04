@@ -6,7 +6,6 @@ with open('weather.txt', 'r') as file:
 
 W = (0.5) * (variable['T'] ** 2) - (0.2) * variable['H'] + (0.1) * variable['w'] - 15
 print(W)
-
 if W > 300:
     print("Sunny")
 elif 200 < W <= 300:

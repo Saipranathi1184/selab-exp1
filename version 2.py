@@ -10,5 +10,4 @@ elif 200<W<=300:
 elif 100<W<=200:
     print("Rainy")
 else:
-    print("Stormy") 
-    
+    print("Stormy")
